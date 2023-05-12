@@ -1,6 +1,4 @@
-if [ -z ${CONDA_BUILD+x} ]; then
-    source ./build_env_setup.sh
-fi
+source ./build_env_setup.sh
 #!/bin/bash
 
 # Intel LLVM must cooperate with compiler and sysroot from conda
