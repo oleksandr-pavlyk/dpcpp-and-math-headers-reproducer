@@ -1,10 +1,11 @@
-
-# proxies should be set up
-
-# The script below installs miniconda into $HOME/miniconda3
-# you may want to change this to avoid exceeding your quota
+# Instructions to reproduce
 
 ```bash
+# proxies should be set up
+
+# N.B.: The script below installs miniconda into $HOME/miniconda3
+#       Adjust as needed to avoid exceeding disk quota
+
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 chmod 755 Miniconda3-latest-Linux-x86_64.sh
 ./Miniconda3-latest-Linux-x86_64.sh -b -p $HOME/miniconda3
