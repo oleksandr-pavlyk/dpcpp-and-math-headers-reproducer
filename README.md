@@ -13,6 +13,7 @@ chmod 755 Miniconda3-latest-Linux-x86_64.sh
 git clone https://github.com/IntelPython/dpctl.git -b feature/elementwise-functions
 cd dpctl
 conda activate
+conda install conda-build
 conda build conda-recipe -c intel --no-test --python=3.9 --numpy=1.21
 ```
 
