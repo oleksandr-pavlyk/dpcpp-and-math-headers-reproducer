@@ -10,7 +10,7 @@ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 chmod 755 Miniconda3-latest-Linux-x86_64.sh
 ./Miniconda3-latest-Linux-x86_64.sh -b -p $HOME/miniconda3
 . miniconda3/etc/profile.d/conda.sh
-git clone https://github.com/IntelPython/dpctl.git -b feature/elementwise-functions
+git clone https://github.com/IntelPython/dpctl.git -b feature/elementwise-functions-repro
 cd dpctl
 conda activate
 conda install conda-build
