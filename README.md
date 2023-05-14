@@ -35,3 +35,6 @@ chmod 755 run.sh
 ```
 
 Running this script reproduces the problem for me.
+
+Compiling "a.cpp" with environment sysroot trips the problem, and the problem is specific to type `double`.
+Changing source file by replacing `double` with `float` the problem disappears.
